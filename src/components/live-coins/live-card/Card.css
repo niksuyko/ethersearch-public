@@ -1,0 +1,53 @@
+.card-container{
+    font-family: 'Inter', sans-serif;
+    width: 250px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgb(166, 205, 207);
+    padding: 5px;
+    border:solid;
+    border-width: 1px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    
+}
+
+.card-title, .address-container, .chart-container, .swap-container, .ether-container {
+    padding: 0px;
+    margin-left: 5px;
+    width:fit-content;
+}
+.card-title{
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 2rem;
+    font-weight: 400;
+    cursor:pointer;
+}
+.address-container, .chart-container, .swap-container, .ether-container {
+    display: flex;
+    align-items: center;
+
+}
+.card-address, .card-chart, .card-swap, .card-ether {
+    margin-top: 8px;
+    font-weight: 200;
+    font-size: 1rem;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    border:none;
+    background:none;
+    cursor:pointer;
+}
+
+.star {
+    justify-content: flex-end;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.top-icons{
+    display:flex;
+}

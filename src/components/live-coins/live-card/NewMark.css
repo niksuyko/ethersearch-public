@@ -1,0 +1,18 @@
+.new {
+    display:flex;
+    justify-content: center;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: solid;
+    width: 30px;
+    height: 15px;
+    border-radius: 5px;
+    border-width: 1.4px;
+    background-color:rgb(202, 228, 206)
+}
+
+.new-text {
+    font-size: 0.7rem;
+    font-weight: 200;
+    margin-top:0px;
+}

@@ -1,0 +1,23 @@
+.favorite-list-container {
+    font-family: 'Inter', sans-serif;
+    padding: 15px 0px 15px 15px;
+    margin-top: 0px;
+    height: 300px;
+    border-width: 1px;
+}
+
+.favorite-container {
+    font-family: 'Inter', sans-serif;
+    width: 250px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgb(144, 202, 157);
+    padding: 5px;
+    border:solid;
+    border-width: 1px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    
+}

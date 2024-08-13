@@ -1,0 +1,48 @@
+button {
+    color: black;
+    text-decoration: none;
+}
+
+.header{
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+    margin-top: 0px;
+    display: flex;
+    border-bottom: solid;
+    border-width: 1px;
+    max-width:100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.header-title{
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-left:5px;
+}
+.user-options{
+    display:flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    gap: 10px;
+    
+}
+
+.header-login, .header-favorites, .header-register, .header-username{
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    cursor: pointer;
+    border:none;
+    background-color:white;
+    font-size: 2rem;
+    font-style:normal;
+    padding:0;
+}
+.header-username{
+    cursor:auto;
+}
+
+.header-sep{
+    font-weight: 200;
+    margin-top: 0;
+    border:solid;
+}

@@ -1,0 +1,79 @@
+.register-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-modal{
+    border:solid;
+    border-radius:10px;
+    border-width:1px;
+    width:500px;
+    height:550px;
+    background-color:rgb(238, 238, 238);
+}
+
+.register-text{
+    font-weight: 200;
+    padding:5px;
+    display:flex;
+    justify-content: center;
+    
+    margin-top:60px;
+}
+
+.register-description{
+    
+    font-weight:200;
+    justify-content: center;
+    display:flex;
+    font-size:1.1rem;
+}
+
+.register-form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.password-input, .username-input, .email-input{
+    padding:10px;
+    border-width:1px;
+    height:30px;
+    width:300px;
+    margin-top:10px;
+    border-radius:10px;
+    background-color:rgb(255, 255, 255);
+    border:none;
+}
+
+.password-input:focus, .username-input:focus{
+    outline:transparent;
+    box-shadow: 0 0 10px #9b9b9b;
+}
+
+.submit-button{
+    margin-top:20px;
+    align-items: left;
+    height:40px;
+    width:310px;
+    border:none;
+    color:rgb(90, 90, 90);
+    background-color: rgb(216, 216, 216);
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.login-failed{
+    font-weight:200;
+    justify-content: center;
+    display:flex;
+    font-size:1.1rem;
+    color:red;
+}

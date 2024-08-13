@@ -1,0 +1,18 @@
+{
+  "name": "wsserver",
+  "version": "1.0.0",
+  "main": "wsserver copy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.1671.0",
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "web3": "^1.10.0"
+  }
+}

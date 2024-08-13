@@ -1,0 +1,65 @@
+.trending-section {
+    font-family: 'Inter', sans-serif;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left:auto;
+    border-left: solid;
+    border-width: 1px;
+    overflow-y: scroll;
+    flex-shrink:0;
+    align-items:center;
+
+}
+
+.trending-title {
+    margin-top: 0px;
+    font-weight: 200;
+}
+
+.trending-coin{
+
+    border:solid;
+    border-width: 1px;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(165, 218, 233);
+    margin-bottom: 10px;
+}
+.trending-coin-name{
+    font-weight: 400;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.trending-icons{
+    margin-top: 10px;
+    gap: 40px;
+    display:flex;
+    margin-bottom: 10px;
+}
+
+.trending-24, .trending-price{
+    font-weight:300;
+    font-size: 1rem;
+    margin-top:0px;
+}
+
+.trending-mcap{
+    margin-top:10px;
+    font-weight:300;
+    font-size: 1rem;
+}
+
+.trending-logo{
+    width:50px;
+    margin-top:10px;
+    border:solid;
+    border-width: 1px;
+    border-radius: 100px;
+}
